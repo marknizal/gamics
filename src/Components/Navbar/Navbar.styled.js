@@ -8,7 +8,10 @@ export const Wrapper = styled.nav`
     ${COLORS.secondary} 240px
   );
   color: ${COLORS.white};
-  padding: 1.4rem;
+  padding: 1.4rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 
   * {
     font-family: "Oxanium", sans-serif;
@@ -17,8 +20,8 @@ export const Wrapper = styled.nav`
   ${BREAKPOINTS.MOBILE} {
     background-image: linear-gradient(
       120deg,
-      ${COLORS.primary},
-      ${COLORS.secondary} 60px
+      ${COLORS.secondary},
+      ${COLORS.secondary}
     );
   }
 `;
@@ -33,6 +36,10 @@ export const Logo = styled.h1`
   margin: 0;
   font-size: 2.2rem;
   cursor: pointer;
+
+  ${BREAKPOINTS.MOBILE} {
+    font-size: 1.8rem;
+  }
 `;
 
 export const NavLinks = styled.ul`

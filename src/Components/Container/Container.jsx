@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const ContainerWrapper = styled.div`
   width: 100%;
-  max-width: 1200px;
+  max-width: 1290px;
   margin: auto;
   overflow: hidden;
+  padding: 0 2rem;
 `;
 
 const Container = ({ children }) => {
