@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gamics/static/css/main.da1d6b4c.css",
+    "main.js": "/gamics/static/js/main.7393e385.js",
+    "static/js/453.f6c309a7.chunk.js": "/gamics/static/js/453.f6c309a7.chunk.js",
+    "static/media/hero.png": "/gamics/static/media/hero.e55feddff5428f10071d.png",
+    "static/media/heroBackground.png": "/gamics/static/media/heroBackground.644a920a5363adb14680.png",
+    "static/media/pic1.jpg": "/gamics/static/media/pic1.5f391edace4973e365aa.jpg",
+    "static/media/pic2.jpg": "/gamics/static/media/pic2.2efd57989d02749121d6.jpg",
+    "static/media/pic3.jpg": "/gamics/static/media/pic3.b81d3a5333ba1c044041.jpg",
+    "index.html": "/gamics/index.html",
+    "main.da1d6b4c.css.map": "/gamics/static/css/main.da1d6b4c.css.map",
+    "main.7393e385.js.map": "/gamics/static/js/main.7393e385.js.map",
+    "453.f6c309a7.chunk.js.map": "/gamics/static/js/453.f6c309a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da1d6b4c.css",
+    "static/js/main.7393e385.js"
+  ]
+}
