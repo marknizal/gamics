@@ -21,24 +21,25 @@ export const Container = styled.div`
   z-index: 1000;
 
   .glow-anim {
-    animation: glow 4s infinite alternate;
+    animation: pulse 2s infinite;
   }
 
-  @keyframes glow {
+  @keyframes pulse {
     0% {
-      opacity: 0.4;
       transform: scale(1);
     }
+    50% {
+      transform: scale(1.1);
+    }
     100% {
-      opacity: 1;
-      transform: scale(1.2);
+      transform: scale(1);
     }
   }
 `;
 
 export const Button = styled.button`
   font-size: 6rem;
-  font-weight: 700;
+  font-weight: 800;
   cursor: pointer;
   background-color: ${COLORS.transparent};
   color: ${COLORS.primary};

@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../Components/Container/Container";
+import Effects from "../../Components/Effects/Effects";
 import { Wrapper, HeroContent, LeftSide, Button, HeroImg } from "./Hero.styled";
 import heroImage from "../../Assets/hero.png";
 
@@ -12,6 +13,7 @@ const Hero = () => {
 
   return (
     <Wrapper>
+      <Effects />
       <Container>
         <HeroContent>
           <LeftSide>

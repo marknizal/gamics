@@ -1,5 +1,4 @@
 import React from "react";
-import Effects from "../Components/Effects/Effects";
 import Hero from "../Sections/Hero/Hero";
 import Teams from "../Sections/Teams/Teams";
 import RecentRelease from "../Sections/RecentRelease/RecentRelease";
@@ -9,7 +8,6 @@ import Versus from "../Sections/Versus/Versus";
 const Homepage = () => {
   return (
     <>
-      <Effects />
       <Hero />
       <Teams />
       <RecentRelease />
