@@ -19,7 +19,7 @@ const P = {
   MOBILE: "1rem",
 };
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.nav`
   position: relative;
   height: 100vh;
   background: url(${Background}) no-repeat center center / cover;

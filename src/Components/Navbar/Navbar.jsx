@@ -31,7 +31,7 @@ const Navbar = () => {
       <Container>
         <NavbarContent>
           <Logo>Gamics</Logo>
-          <NavLinks isMobileMenuOpen={isMobileMenuOpen}>
+          <NavLinks $isMobileMenuOpen={isMobileMenuOpen}>
             {navLinks.map((link, index) => (
               <li key={index}>
                 <a href={link.path}>{link.name}</a>

@@ -10,7 +10,7 @@ export const TitleContainer = styled.div`
 
 export const MainTitle = styled.h1`
   font-family: "Oxanium", sans-serif;
-  color: ${({ isDark }) => (isDark ? COLORS.white : COLORS.black)};
+  color: ${({ $isDark }) => ($isDark ? COLORS.white : COLORS.black)};
   display: inline;
   text-transform: uppercase;
   font-weight: 800;

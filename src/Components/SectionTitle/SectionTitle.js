@@ -14,7 +14,7 @@ const SectionTitle = ({ title, isDark }) => {
 
   return (
     <TitleContainer>
-      <MainTitle isDark={isDark}>
+      <MainTitle $isDark={isDark}>
         {mainTitle} <LastWord>{lastWord}</LastWord>
       </MainTitle>
       <Underline src={underlineImage} alt="Underline" />

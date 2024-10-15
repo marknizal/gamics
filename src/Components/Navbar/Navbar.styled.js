@@ -63,7 +63,7 @@ export const NavLinks = styled.ul`
   }
 
   ${BREAKPOINTS.MOBILE} {
-    display: ${(props) => (props.isMobileMenuOpen ? "block" : "none")};
+    display: ${(props) => (props.$isMobileMenuOpen ? "block" : "none")};
     position: absolute;
     top: 80px;
     right: 0;
