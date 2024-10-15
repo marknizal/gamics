@@ -63,5 +63,10 @@ export const Logo = styled.div`
   img {
     display: flex;
     width: 100%;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `;

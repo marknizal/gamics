@@ -149,7 +149,12 @@ export const Button = styled.button`
   font-size: 1rem;
   margin-top: 2rem;
   cursor: pointer;
-  border-radius: 0.4rem;
+  border-radius: 0.6rem;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: ${COLORS.secondary};
+  }
 
   ${BREAKPOINTS.TABLET} {
     font-size: 0.8rem;

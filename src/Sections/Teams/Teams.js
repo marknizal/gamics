@@ -25,7 +25,7 @@ const TeamList = styled.div`
   align-items: center;
   gap: 4rem;
   width: 200%;
-  animation: move 40s linear infinite;
+  animation: move 30s linear infinite;
   ${move}
 
   ${BREAKPOINTS.MOBILE} {
